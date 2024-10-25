@@ -6,6 +6,10 @@ import sys
 
 def main():
     """Run administrative tasks."""
+<<<<<<< HEAD
+=======
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'urls_and_views.settings')
+>>>>>>> 9e7839f (Initial commit of urls_and_views project)
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
